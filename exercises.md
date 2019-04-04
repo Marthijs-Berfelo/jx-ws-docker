@@ -16,7 +16,7 @@ docker run -v ~/jx-workshop/Docker-Volumes/mongo:/data/db -p 27017:27017 mongo:4
 ### Solution demonstration
 Restart the running application `CTRL+c` and start the application as you did during the issue demonstration
 
-In your browser go to: `http://localhost:8080/graphiql
+In your browser go to: http://localhost:8080/graphiql
 
 ## 2. How to run docker containers like a service
 When the docker service process is restarted (i.e. laptop restart) the db container is not restarted. If you forget to recreate the container you might endup debugging the issue unnecessarily.
@@ -37,7 +37,7 @@ Stop and restart your docker service (stop and start the VM or the docker daemon
 ### Solution demonstration
 Restart the running application `CTRL+c` and start the application as you did during the issue demonstration
 
-In your browser go to: `http://localhost:8080/graphiql
+In your browser go to: http://localhost:8080/graphiql
 
 ## 3. Run an application in docker
 When the application is going to run in a container runtime in production, you will probably want to check the container locally before committing Dockerfile changes.
@@ -60,7 +60,7 @@ In the output of the run command you will see a similar error as you did during 
    [run application stack](https://github.com/Marthijs-Berfelo/jx-ws-snacks#2-in-local-docker-container)
 
 ### Solution demonstration
-In your browser go to: `http://localhost:9000/graphiql`
+In your browser go to: http://localhost:9000/graphiql
 
 ## END: Clean up
 Once your done exploring docker [docker commandline reference](https://docs.docker.com/engine/reference/commandline/docker/), remove
