@@ -1,0 +1,14 @@
+version: "3.4"
+services:
+  mongo:
+    image: mongo:4.0.8
+    ports:
+      - "27017:27017"
+    volumes:
+      - /home/marthijs/jx-workshop/Docker-Volumes/mongo:/data/db
+  snacks:
+    image: local/snacks:latest
+  ports:
+    - "8080:9000"
+  environment:
+    - SPRING_PROFILES_ACTIVE=docker-stack
