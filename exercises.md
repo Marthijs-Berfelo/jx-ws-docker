@@ -60,9 +60,9 @@ In the output of the run command you will see a similar error as you did during 
    [run application stack](https://github.com/Marthijs-Berfelo/jx-ws-snacks#2-in-local-docker-container)
 
 ### Solution demonstration
-In your browser go to: `http://localhost:9000/graphiql
+In your browser go to: `http://localhost:9000/graphiql`
 
-## Clean up
+## END: Clean up
 Once your done exploring docker [docker commandline reference](https://docs.docker.com/engine/reference/commandline/docker/), remove
 the application stack
 ```bash
